@@ -1,5 +1,5 @@
 // Skills data
-const skills = ["HTML", "CSS", "JavaScript", "React JS", "WordPress"];
+const skills = ["HTML", "CSS", "JavaScript", "React JS", "WordPress","Ux Design"];
 
 // Get container
 const container = document.getElementById("skills-container");

@@ -69,7 +69,7 @@ body {
 
 .project-card a {
   text-decoration: none;
-  background-color: #007bff;
+  background-color: #935555;
   color: #fff;
   padding: 8px 15px;
   border-radius: 20px;
@@ -77,7 +77,7 @@ body {
 }
 
 .project-card a:hover {
-  background-color: #0056b3;
+  background-color: #b47812c4;
 }
 
 .project-card:hover {

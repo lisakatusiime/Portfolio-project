@@ -17,6 +17,56 @@ skills.forEach(skill => {
   container.appendChild(button);
 });
 
+const careerData = [
+
+  {
+        title: "Website redesign",
+        company: "course project",
+        year: "June 2025 - September 2025",
+        description: "We redesigned A kid's place childcare with modern UI using HTML, CSS, Javascript and ReactJs"
+    },
+    {
+        title: "Co-founder and Business Development Manager",
+        company: "Likamis Software Ltd",
+        year: "2013-2015",
+        description: "We developed a mobile application to help farmers sell their produce online using Java."
+    }
+    
+];
+
+const careerContainer = document.querySelector(".career-info");
+
+careerData.forEach(job => {
+    const card = document.createElement("div");
+    card.classList.add("career-card");
+
+    card.innerHTML = `
+        <h3>${job.title}</h3>
+        <strong>${job.company}</strong> | <em>${job.year}</em>
+        <p>${job.description}</p>
+    `;
+
+    careerContainer.appendChild(card);
+});
+
+//education info
+const educationInfo = document.querySelector(".education-info");
+
+educationInfo.innerHTML = `
+    <h3>Sviluppo Web,</h3>
+    <p>Programma di Springboard, Sistech(Italy)</p>
+    <p>Maggio - Settembre 2025</p>
+    <h3>Certificazione UX Design,</h3>
+    <p>Inforcoop Ecipa, Novara(Italy)</p>
+    <p>2020 - 2021</p>
+    <h3>Tecnico Informatico</h3>
+    <p>ENAIP BORGOMANERO(Italy)</p>
+    <p>2019 - 2020</p>
+    <h3>Bachelor of Science in Software Engineering</h3>
+    <p>Makerere University, Kampala(Uganda)</p>
+    <p>2009 - 2014</p>
+`;
+
 //Contact data
 const contactData = [
   {

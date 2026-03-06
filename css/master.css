@@ -113,7 +113,66 @@ body {
   color: white;
 }
 
+/* career section styling */
+#career {
+    padding: 60px 20px;
+    background-color: #f9fafc;
+}
 
+#career h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Career Cards Container */
+.career-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Individual Card */
+.career-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.career-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.career-card h3 {
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.career-card p {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* education section styling */
+#education {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+#education h2 {
+    margin-bottom: 20px;
+}
+
+.education-info {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
 /* contact styling */
 #contact {

@@ -104,19 +104,19 @@ contactData.forEach(item => {
 // Portfolio projects data
 const projects = [
   {
-    title: "Project One",
+    title: "FrontEnd project",
     description: "A brief description of project one. Frontend focused with HTML, CSS, JS.",
     image: "images/project1.jpg",
     link: "https://example.com/project1"
   },
   {
-    title: "Project Two",
+    title: "React project",
     description: "A brief description of project two. React-based UI project.",
     image: "images/project2.jpg",
     link: "https://example.com/project2"
   },
   {
-    title: "Project Three",
+    title: "WordPress project",
     description: "A brief description of project three. WordPress website development.",
     image: "images/project3.jpg",
     link: "https://example.com/project3"

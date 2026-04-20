@@ -21,15 +21,15 @@ const careerData = [
 
   {
         title: "Website redesign",
-        company: "course project",
+        company: "Coursework project, Sistech",
         year: "June 2025 - September 2025",
-        description: "We redesigned A kid's place childcare with modern UI using HTML, CSS, Javascript and ReactJs"
+        description: "For this course project, we redesigned two pages of an existing website (A Kid’s Place Childcare) using React, focusing on improving the structure, interactivity and component-based development. "
     },
     {
         title: "Co-founder and Business Development Manager",
         company: "Likamis Software Ltd",
         year: "2013-2015",
-        description: "We developed a mobile application to help farmers sell their produce online using Java."
+        description: "We developed a mobile application to support Ugandan farmers to find market for their products, facilitating connections with local and international buyers."
     }
     
 ];
@@ -53,13 +53,13 @@ careerData.forEach(job => {
 const educationInfo = document.querySelector(".education-info");
 
 educationInfo.innerHTML = `
-    <h3>Sviluppo Web,</h3>
-    <p>Programma di Springboard, Sistech(Italy)</p>
+    <h3>Front-end Development,</h3>
+    <p>Springboard program, Sistech(Italy)</p>
     <p>Maggio - Settembre 2025</p>
-    <h3>Certificazione UX Design,</h3>
+    <h3>Certificate in UX Design,</h3>
     <p>Inforcoop Ecipa, Novara(Italy)</p>
     <p>2020 - 2021</p>
-    <h3>Tecnico Informatico</h3>
+    <h3>Certificate in Information Technology</h3>
     <p>ENAIP BORGOMANERO(Italy)</p>
     <p>2019 - 2020</p>
     <h3>Bachelor of Science in Software Engineering</h3>
@@ -82,7 +82,7 @@ const contactData = [
   {
     type: "LinkedIn",
     value: "linkedin.com/Lisa Katusiime",
-    link: "https://www.linkedin.com/in/lisa-katusiime-24a25842/"
+    link: "https://www.linkedin.com/in/lisakatusiime/"
   }
 ];
 
@@ -104,22 +104,22 @@ contactData.forEach(item => {
 // Portfolio projects data
 const projects = [
   {
-    title: "FrontEnd project",
-    description: "A brief description of project one. Frontend focused with HTML, CSS, JS.",
+    title: "My  Portfolio website",
+    description: "A responsive portfolio website built with HTML, CSS, and JavaScript, designed to showcase my projects through a dynamic and intuitive interface.",
     image: "images/project1.jpg",
-    link: "https://example.com/project1"
+    link: "https://github.com/lisakatusiime/Portfolio-project"
   },
   {
     title: "React project",
-    description: "A brief description of project two. React-based UI project.",
+    description: "I collaborated on a coursework project to redesign two pages of an existing website using React, focusing on component-based architecture and improving the user experience",
     image: "images/project2.jpg",
-    link: "https://example.com/project2"
+    link: "https://github.com/Ek-koval/sistech-project"
   },
   {
     title: "WordPress project",
-    description: "A brief description of project three. WordPress website development.",
+    description: "Updating and maintaining an existing WordPress website, including content updates, site maintenance, and continuous improvements to usability and user experience.",
     image: "images/project3.jpg",
-    link: "https://example.com/project3"
+    link: "https://accesspluss.org/"
   }
 ];
 
